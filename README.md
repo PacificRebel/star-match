@@ -9,7 +9,18 @@ Guide: jscomplete.com/learn/1rd-reactful
 It runs on localhost:1234 by default (it's meant to be 4242 but not on mine!).
 
 ------------
+`Prettier` installed with these instructions: 
+- `npm install --save-dev --save-exact prettier`  
+- `echo {}> .prettierrc.json`  
+- `npx prettier --write`  
+- `npx prettier --check`  
+- `npm install --save-dev eslint-config-prettier`    
+   
+And added it to my IDE, Atom:  
+- `apm install prettier-atom`  
 
-Original code, which is modified for this project as an example of how to use  
-React in a development environment, is here:  
+------------
+
+Original code, which is modified for this project as an example of how to use React in a  
+development environment, is here:  
 https://jscomplete.com/playground/rgs3.9
